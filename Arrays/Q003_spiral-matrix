@@ -8,9 +8,7 @@ class Solution {
 
         while(Top<Bottom && Left<Right){
             //top
-…
-            //Left
-            for(int i=Bottom-1;i>Top-1;i--){
+…            for(int i=Bottom-1;i>Top-1;i--){
                 list.add(matrix[i][Left]);
             }
             Left+=1;
